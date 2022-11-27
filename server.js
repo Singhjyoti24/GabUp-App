@@ -272,7 +272,7 @@ app.get("/messages/:roomName/:roomPassword", function (req, res) {
           res.send(err);
         } else {
           res.render("result", {
-            message: "No room matched. Recheck Room Name & Room Password.",
+            message: "No such room is present. Kindly recheck the password or room name.",
           });
         }
       }
