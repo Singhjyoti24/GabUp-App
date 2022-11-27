@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+    background-color: #3f3b6c;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/* Styles for header */
+.navf {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.navf:hover {
+    color: #ffe1e1;
+    text-decoration: underline;
+}
+
+/* Styles for home page */
+.gab-head {
+    color: #93c2ff;
+    text-align: center;
+}
+
+.home-logo {
+    border-radius: 20%;
+    display: block;
+    margin: 13px auto;
+    width: 17%;
+}
+
+.button-register,
+.button-login {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    background: #624f82;
+    background-image: -webkit-linear-gradient(top, #624f82, #624f82);
+    background-image: -moz-linear-gradient(top, #624f82, #624f82);
+    background-image: -ms-linear-gradient(top, #624f82, #624f82);
+    background-image: -o-linear-gradient(top, #624f82, #624f82);
+    background-image: linear-gradient(to bottom, #624f82, #624f82);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border-color: black;
+    font-family: Courier New;
+    color: #eeeeee;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.btns:hover {
+    background: #93c2ff;
+    background-image: -webkit-linear-gradient(top, #93c2ff, #93c2ff);
+    background-image: -moz-linear-gradient(top, #93c2ff, #93c2ff);
+    background-image: -ms-linear-gradient(top, #93c2ff, #93c2ff);
+    background-image: -o-linear-gradient(top, #93c2ff, #93c2ff);
+    background-image: linear-gradient(to bottom, #93c2ff, #93c2ff);
+    border-color: black;
+    text-decoration: none;
+}
+
+/*
+#messageContainer {
+    background-color: rgb(63, 59, 59);
+    height: 400px;
+    overflow-y: scroll;
+    margin: 10px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid rgb(0, 0, 0);
+}
+.displayMsg {
+    color: rgb(66, 247, 11);
+    padding: 10px;
+    font-family: "Ubuntu", Courier, monospace;
+}
+*/
+
+.head-register,
+.head-login {
+    color: #93c2ff;
+    padding-bottom: 1%;
+}
+
+button {
+    margin-top: 10px;
+}
+
+h2 {
+    color: #93c2ff;
+}
+
+h3 {
+    color: #eeeeee;
+    text-align: center;
+}
+
+.room-logo {
+    border-radius: 20px;
+    display: block;
+    margin: 15px auto;
+    width: 20%;
+}
+
+.submit {
+    font-weight: bold;
+    margin: 5px;
+    width: 70%;
+}
+
+/* .send {
+    display: table;
+    padding: 10px 70px;
+}
+
+.send:hover {
+    background-color: red;
+} */
+
+#loading {
+    color: #eeeeee;
+}
+
+b {
+    color: #eeeeee;
+}
+
+i {
+    color: yellow;
+    font-style: normal;
+}
+
+label {
+    color: black;
+}

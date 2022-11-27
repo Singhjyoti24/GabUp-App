@@ -1,0 +1,49 @@
+<%- include('partials/header') %>
+<div class="container mt-5">
+  <h2 class="head-register">Register your account</h2>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+          <!-- Makes POST request to /register route -->
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label for="username">Enter your Username:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="username"
+                placeholder="Username"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Enter your email:</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                autocomplete="off"
+                placeholder="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Enter your Password:</label>
+              <input
+                type="password"
+                class="form-control"
+                name="password"
+                placeholder="Password"
+                autocomplete="off"
+              />
+            </div>
+            <button type="submit" class="btn btn-dark">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
